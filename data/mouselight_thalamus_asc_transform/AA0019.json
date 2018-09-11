@@ -1,16 +1,22 @@
 {
   "soma": {
-    "radius": 5,
+    "id": 0,
     "center": [
       6639.675,
       2341.1445,
       6270.77
     ],
-    "type": "soma",
-    "id": 0
+    "radius": 5,
+    "type": "soma"
   },
   "sections": [
     {
+      "typevalue": 4,
+      "children": [
+        2,
+        3
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -37,10 +43,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 1
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -163,10 +172,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 1,
       "id": 2
     },
     {
+      "typevalue": 4,
+      "children": [
+        4,
+        5
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -193,10 +208,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 1,
       "id": 3
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -271,10 +289,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 3,
       "id": 4
     },
     {
+      "typevalue": 4,
+      "children": [
+        6,
+        7
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -301,10 +325,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 3,
       "id": 5
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -427,10 +454,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 5,
       "id": 6
     },
     {
+      "typevalue": 4,
+      "children": [
+        8,
+        9
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -505,10 +538,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 5,
       "id": 7
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -551,10 +587,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 7,
       "id": 8
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -589,10 +628,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 7,
       "id": 9
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -667,10 +709,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 10
     },
     {
+      "typevalue": 4,
+      "children": [
+        12,
+        13
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -713,10 +761,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 11
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -807,10 +858,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 11,
       "id": 12
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -885,10 +939,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 11,
       "id": 13
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -987,10 +1044,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 14
     },
     {
+      "typevalue": 4,
+      "children": [
+        16,
+        17
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1009,10 +1072,13 @@
           "radius": 1.0
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 15
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1063,10 +1129,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 15,
       "id": 16
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1173,10 +1242,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 15,
       "id": 17
     },
     {
+      "typevalue": 4,
+      "children": [
+        19,
+        26
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1203,10 +1278,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 18
     },
     {
+      "typevalue": 4,
+      "children": [
+        20,
+        21
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1233,10 +1314,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 18,
       "id": 19
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1351,10 +1435,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 19,
       "id": 20
     },
     {
+      "typevalue": 4,
+      "children": [
+        22,
+        23
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1381,10 +1471,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 19,
       "id": 21
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1531,10 +1624,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 21,
       "id": 22
     },
     {
+      "typevalue": 4,
+      "children": [
+        24,
+        25
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1561,10 +1660,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 21,
       "id": 23
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1695,10 +1797,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 23,
       "id": 24
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1813,10 +1918,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 23,
       "id": 25
     },
     {
+      "typevalue": 4,
+      "children": [
+        27,
+        30
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1851,10 +1962,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 18,
       "id": 26
     },
     {
+      "typevalue": 4,
+      "children": [
+        28,
+        29
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1881,10 +1998,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 26,
       "id": 27
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -1991,10 +2111,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 27,
       "id": 28
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2101,10 +2224,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 27,
       "id": 29
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2227,10 +2353,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 26,
       "id": 30
     },
     {
+      "typevalue": 4,
+      "children": [
+        32,
+        35
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2249,10 +2381,16 @@
           "radius": 1.0
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 31
     },
     {
+      "typevalue": 4,
+      "children": [
+        33,
+        34
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2319,10 +2457,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 31,
       "id": 32
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2389,10 +2530,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 32,
       "id": 33
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2475,10 +2619,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 32,
       "id": 34
     },
     {
+      "typevalue": 4,
+      "children": [
+        36,
+        45
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2505,10 +2655,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 31,
       "id": 35
     },
     {
+      "typevalue": 4,
+      "children": [
+        37,
+        40
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2535,10 +2691,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 35,
       "id": 36
     },
     {
+      "typevalue": 4,
+      "children": [
+        38,
+        39
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2565,10 +2727,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 36,
       "id": 37
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2603,10 +2768,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 37,
       "id": 38
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2649,10 +2817,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 37,
       "id": 39
     },
     {
+      "typevalue": 4,
+      "children": [
+        41,
+        42
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2695,10 +2869,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 36,
       "id": 40
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2805,10 +2982,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 40,
       "id": 41
     },
     {
+      "typevalue": 4,
+      "children": [
+        43,
+        44
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2867,10 +3050,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 40,
       "id": 42
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2905,10 +3091,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 42,
       "id": 43
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2943,10 +3132,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 42,
       "id": 44
     },
     {
+      "typevalue": 4,
+      "children": [
+        46,
+        53
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -2973,10 +3168,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 35,
       "id": 45
     },
     {
+      "typevalue": 4,
+      "children": [
+        47,
+        52
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -3003,10 +3204,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 45,
       "id": 46
     },
     {
+      "typevalue": 4,
+      "children": [
+        48,
+        51
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -3041,10 +3248,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 46,
       "id": 47
     },
     {
+      "typevalue": 4,
+      "children": [
+        49,
+        50
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -3071,10 +3284,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 47,
       "id": 48
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -3149,10 +3365,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 48,
       "id": 49
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -3243,10 +3462,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 48,
       "id": 50
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -3345,10 +3567,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 47,
       "id": 51
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -3431,10 +3656,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 46,
       "id": 52
     },
     {
+      "typevalue": 4,
+      "children": [
+        54,
+        55
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -3485,10 +3716,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 45,
       "id": 53
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -3531,10 +3765,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 53,
       "id": 54
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -3625,10 +3862,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 53,
       "id": 55
     },
     {
+      "typevalue": 3,
+      "children": [
+        57,
+        58
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3735,10 +3978,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": null,
       "id": 56
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3813,10 +4059,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 56,
       "id": 57
     },
     {
+      "typevalue": 3,
+      "children": [
+        59,
+        70
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4827,10 +5079,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 56,
       "id": 58
     },
     {
+      "typevalue": 3,
+      "children": [
+        60,
+        61
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5209,10 +5467,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 58,
       "id": 59
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5239,10 +5500,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 59,
       "id": 60
     },
     {
+      "typevalue": 3,
+      "children": [
+        62,
+        67
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5285,10 +5552,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 59,
       "id": 61
     },
     {
+      "typevalue": 3,
+      "children": [
+        63,
+        66
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5323,10 +5596,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 61,
       "id": 62
     },
     {
+      "typevalue": 3,
+      "children": [
+        64,
+        65
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5353,10 +5632,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 62,
       "id": 63
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5431,10 +5713,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 63,
       "id": 64
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5477,10 +5762,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 63,
       "id": 65
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5667,10 +5955,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 62,
       "id": 66
     },
     {
+      "typevalue": 3,
+      "children": [
+        68,
+        69
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5721,10 +6015,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 61,
       "id": 67
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5759,10 +6056,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 67,
       "id": 68
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5797,10 +6097,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 67,
       "id": 69
     },
     {
+      "typevalue": 3,
+      "children": [
+        71,
+        279
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5995,10 +6301,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 58,
       "id": 70
     },
     {
+      "typevalue": 3,
+      "children": [
+        72,
+        79
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6185,10 +6497,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 70,
       "id": 71
     },
     {
+      "typevalue": 3,
+      "children": [
+        73,
+        74
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6271,10 +6589,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 71,
       "id": 72
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6317,10 +6638,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 72,
       "id": 73
     },
     {
+      "typevalue": 3,
+      "children": [
+        75,
+        76
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6371,10 +6698,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 72,
       "id": 74
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6409,10 +6739,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 74,
       "id": 75
     },
     {
+      "typevalue": 3,
+      "children": [
+        77,
+        78
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6439,10 +6775,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 74,
       "id": 76
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6469,10 +6808,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 76,
       "id": 77
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6523,10 +6865,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 76,
       "id": 78
     },
     {
+      "typevalue": 3,
+      "children": [
+        80,
+        81
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6601,10 +6949,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 71,
       "id": 79
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6767,10 +7118,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 79,
       "id": 80
     },
     {
+      "typevalue": 3,
+      "children": [
+        82,
+        177
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6877,10 +7234,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 79,
       "id": 81
     },
     {
+      "typevalue": 3,
+      "children": [
+        83,
+        122
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6947,10 +7310,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 81,
       "id": 82
     },
     {
+      "typevalue": 3,
+      "children": [
+        84,
+        103
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7017,10 +7386,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 82,
       "id": 83
     },
     {
+      "typevalue": 3,
+      "children": [
+        85,
+        86
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7063,10 +7438,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 83,
       "id": 84
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7093,10 +7471,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 84,
       "id": 85
     },
     {
+      "typevalue": 3,
+      "children": [
+        87,
+        102
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7123,10 +7507,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 84,
       "id": 86
     },
     {
+      "typevalue": 3,
+      "children": [
+        88,
+        97
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7161,10 +7551,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 86,
       "id": 87
     },
     {
+      "typevalue": 3,
+      "children": [
+        89,
+        90
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7199,10 +7595,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 87,
       "id": 88
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7245,10 +7644,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 88,
       "id": 89
     },
     {
+      "typevalue": 3,
+      "children": [
+        91,
+        94
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7291,10 +7696,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 88,
       "id": 90
     },
     {
+      "typevalue": 3,
+      "children": [
+        92,
+        93
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7337,10 +7748,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 90,
       "id": 91
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7399,10 +7813,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 91,
       "id": 92
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7445,10 +7862,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 91,
       "id": 93
     },
     {
+      "typevalue": 3,
+      "children": [
+        95,
+        96
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7515,10 +7938,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 90,
       "id": 94
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7569,10 +7995,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 94,
       "id": 95
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7615,10 +8044,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 94,
       "id": 96
     },
     {
+      "typevalue": 3,
+      "children": [
+        98,
+        99
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7653,10 +8088,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 87,
       "id": 97
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7723,10 +8161,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 97,
       "id": 98
     },
     {
+      "typevalue": 3,
+      "children": [
+        100,
+        101
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7753,10 +8197,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 97,
       "id": 99
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7791,10 +8238,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 99,
       "id": 100
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7821,10 +8271,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 99,
       "id": 101
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7891,10 +8344,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 86,
       "id": 102
     },
     {
+      "typevalue": 3,
+      "children": [
+        104,
+        121
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7921,10 +8380,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 83,
       "id": 103
     },
     {
+      "typevalue": 3,
+      "children": [
+        105,
+        106
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7991,10 +8456,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 103,
       "id": 104
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8181,10 +8649,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 104,
       "id": 105
     },
     {
+      "typevalue": 3,
+      "children": [
+        107,
+        110
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8243,10 +8717,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 104,
       "id": 106
     },
     {
+      "typevalue": 3,
+      "children": [
+        108,
+        109
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8409,10 +8889,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 106,
       "id": 107
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8439,10 +8922,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 107,
       "id": 108
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8493,10 +8979,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 107,
       "id": 109
     },
     {
+      "typevalue": 3,
+      "children": [
+        111,
+        112
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8579,10 +9071,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 106,
       "id": 110
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8649,10 +9144,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 110,
       "id": 111
     },
     {
+      "typevalue": 3,
+      "children": [
+        113,
+        114
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8719,10 +9220,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 110,
       "id": 112
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8773,10 +9277,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 112,
       "id": 113
     },
     {
+      "typevalue": 3,
+      "children": [
+        115,
+        116
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8803,10 +9313,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 112,
       "id": 114
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8881,10 +9394,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 114,
       "id": 115
     },
     {
+      "typevalue": 3,
+      "children": [
+        117,
+        118
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8943,10 +9462,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 114,
       "id": 116
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8973,10 +9495,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 116,
       "id": 117
     },
     {
+      "typevalue": 3,
+      "children": [
+        119,
+        120
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9059,10 +9587,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 116,
       "id": 118
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9089,10 +9620,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 118,
       "id": 119
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9127,10 +9661,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 118,
       "id": 120
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9181,10 +9718,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 103,
       "id": 121
     },
     {
+      "typevalue": 3,
+      "children": [
+        123,
+        138
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9291,10 +9834,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 82,
       "id": 122
     },
     {
+      "typevalue": 3,
+      "children": [
+        124,
+        125
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9369,10 +9918,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 122,
       "id": 123
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9423,10 +9975,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 123,
       "id": 124
     },
     {
+      "typevalue": 3,
+      "children": [
+        126,
+        127
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9469,10 +10027,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 123,
       "id": 125
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9539,10 +10100,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 125,
       "id": 126
     },
     {
+      "typevalue": 3,
+      "children": [
+        128,
+        129
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9577,10 +10144,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 125,
       "id": 127
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9615,10 +10185,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 127,
       "id": 128
     },
     {
+      "typevalue": 3,
+      "children": [
+        130,
+        137
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9645,10 +10221,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 127,
       "id": 129
     },
     {
+      "typevalue": 3,
+      "children": [
+        131,
+        134
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9707,10 +10289,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 129,
       "id": 130
     },
     {
+      "typevalue": 3,
+      "children": [
+        132,
+        133
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9801,10 +10389,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 130,
       "id": 131
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9863,10 +10454,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 131,
       "id": 132
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9901,10 +10495,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 131,
       "id": 133
     },
     {
+      "typevalue": 3,
+      "children": [
+        135,
+        136
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9931,10 +10531,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 130,
       "id": 134
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9977,10 +10580,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 134,
       "id": 135
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10031,10 +10637,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 134,
       "id": 136
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10077,10 +10686,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 129,
       "id": 137
     },
     {
+      "typevalue": 3,
+      "children": [
+        139,
+        150
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10139,10 +10754,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 122,
       "id": 138
     },
     {
+      "typevalue": 3,
+      "children": [
+        140,
+        147
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10225,10 +10846,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 138,
       "id": 139
     },
     {
+      "typevalue": 3,
+      "children": [
+        141,
+        146
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10255,10 +10882,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 139,
       "id": 140
     },
     {
+      "typevalue": 3,
+      "children": [
+        142,
+        145
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10293,10 +10926,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 140,
       "id": 141
     },
     {
+      "typevalue": 3,
+      "children": [
+        143,
+        144
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10371,10 +11010,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 141,
       "id": 142
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10433,10 +11075,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 142,
       "id": 143
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10511,10 +11156,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 142,
       "id": 144
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10573,10 +11221,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 141,
       "id": 145
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10619,10 +11270,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 140,
       "id": 146
     },
     {
+      "typevalue": 3,
+      "children": [
+        148,
+        149
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10657,10 +11314,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 139,
       "id": 147
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10695,10 +11355,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 147,
       "id": 148
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10757,10 +11420,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 147,
       "id": 149
     },
     {
+      "typevalue": 3,
+      "children": [
+        151,
+        158
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10811,10 +11480,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 138,
       "id": 150
     },
     {
+      "typevalue": 3,
+      "children": [
+        152,
+        155
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10857,10 +11532,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 150,
       "id": 151
     },
     {
+      "typevalue": 3,
+      "children": [
+        153,
+        154
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10887,10 +11568,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 151,
       "id": 152
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10925,10 +11609,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 152,
       "id": 153
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11011,10 +11698,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 152,
       "id": 154
     },
     {
+      "typevalue": 3,
+      "children": [
+        156,
+        157
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11065,10 +11758,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 151,
       "id": 155
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11111,10 +11807,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 155,
       "id": 156
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11141,10 +11840,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 155,
       "id": 157
     },
     {
+      "typevalue": 3,
+      "children": [
+        159,
+        164
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11235,10 +11940,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 150,
       "id": 158
     },
     {
+      "typevalue": 3,
+      "children": [
+        160,
+        163
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11281,10 +11992,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 158,
       "id": 159
     },
     {
+      "typevalue": 3,
+      "children": [
+        161,
+        162
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11335,10 +12052,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 159,
       "id": 160
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11389,10 +12109,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 160,
       "id": 161
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11427,10 +12150,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 160,
       "id": 162
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11545,10 +12271,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 159,
       "id": 163
     },
     {
+      "typevalue": 3,
+      "children": [
+        165,
+        176
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11583,10 +12315,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 158,
       "id": 164
     },
     {
+      "typevalue": 3,
+      "children": [
+        166,
+        173
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11613,10 +12351,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 164,
       "id": 165
     },
     {
+      "typevalue": 3,
+      "children": [
+        167,
+        172
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11675,10 +12419,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 165,
       "id": 166
     },
     {
+      "typevalue": 3,
+      "children": [
+        168,
+        171
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11753,10 +12503,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 166,
       "id": 167
     },
     {
+      "typevalue": 3,
+      "children": [
+        169,
+        170
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11783,10 +12539,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 167,
       "id": 168
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11885,10 +12644,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 168,
       "id": 169
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11947,10 +12709,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 168,
       "id": 170
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11977,10 +12742,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 167,
       "id": 171
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12055,10 +12823,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 166,
       "id": 172
     },
     {
+      "typevalue": 3,
+      "children": [
+        174,
+        175
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12117,10 +12891,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 165,
       "id": 173
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12299,10 +13076,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 173,
       "id": 174
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12377,10 +13157,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 173,
       "id": 175
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12479,10 +13262,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 164,
       "id": 176
     },
     {
+      "typevalue": 3,
+      "children": [
+        178,
+        278
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12573,10 +13362,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 81,
       "id": 177
     },
     {
+      "typevalue": 3,
+      "children": [
+        179,
+        180
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12691,10 +13486,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 177,
       "id": 178
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12761,10 +13559,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 178,
       "id": 179
     },
     {
+      "typevalue": 3,
+      "children": [
+        181,
+        192
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12799,10 +13603,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 178,
       "id": 180
     },
     {
+      "typevalue": 3,
+      "children": [
+        182,
+        185
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12829,10 +13639,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 180,
       "id": 181
     },
     {
+      "typevalue": 3,
+      "children": [
+        183,
+        184
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12971,10 +13787,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 181,
       "id": 182
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13041,10 +13860,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 182,
       "id": 183
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13079,10 +13901,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 182,
       "id": 184
     },
     {
+      "typevalue": 3,
+      "children": [
+        186,
+        189
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13149,10 +13977,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 181,
       "id": 185
     },
     {
+      "typevalue": 3,
+      "children": [
+        187,
+        188
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13211,10 +14045,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 185,
       "id": 186
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13305,10 +14142,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 186,
       "id": 187
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13375,10 +14215,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 186,
       "id": 188
     },
     {
+      "typevalue": 3,
+      "children": [
+        190,
+        191
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13437,10 +14283,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 185,
       "id": 189
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13539,10 +14388,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 189,
       "id": 190
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13665,10 +14517,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 189,
       "id": 191
     },
     {
+      "typevalue": 3,
+      "children": [
+        193,
+        253
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13695,10 +14553,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 180,
       "id": 192
     },
     {
+      "typevalue": 3,
+      "children": [
+        194,
+        203
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13805,10 +14669,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 192,
       "id": 193
     },
     {
+      "typevalue": 3,
+      "children": [
+        195,
+        202
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13891,10 +14761,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 193,
       "id": 194
     },
     {
+      "typevalue": 3,
+      "children": [
+        196,
+        197
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13937,10 +14813,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 194,
       "id": 195
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13991,10 +14870,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 195,
       "id": 196
     },
     {
+      "typevalue": 3,
+      "children": [
+        198,
+        199
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14061,10 +14946,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 195,
       "id": 197
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14091,10 +14979,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 197,
       "id": 198
     },
     {
+      "typevalue": 3,
+      "children": [
+        200,
+        201
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14121,10 +15015,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 197,
       "id": 199
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14167,10 +15064,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 199,
       "id": 200
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14245,10 +15145,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 199,
       "id": 201
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14275,10 +15178,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 194,
       "id": 202
     },
     {
+      "typevalue": 3,
+      "children": [
+        204,
+        248
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14305,10 +15214,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 193,
       "id": 203
     },
     {
+      "typevalue": 3,
+      "children": [
+        205,
+        232
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14367,10 +15282,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 203,
       "id": 204
     },
     {
+      "typevalue": 3,
+      "children": [
+        206,
+        231
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14405,10 +15326,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 204,
       "id": 205
     },
     {
+      "typevalue": 3,
+      "children": [
+        207,
+        208
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14451,10 +15378,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 205,
       "id": 206
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14497,10 +15427,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 206,
       "id": 207
     },
     {
+      "typevalue": 3,
+      "children": [
+        209,
+        228
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14559,10 +15495,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 206,
       "id": 208
     },
     {
+      "typevalue": 3,
+      "children": [
+        210,
+        223
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14621,10 +15563,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 208,
       "id": 209
     },
     {
+      "typevalue": 3,
+      "children": [
+        211,
+        212
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14659,10 +15607,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 209,
       "id": 210
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14689,10 +15640,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 210,
       "id": 211
     },
     {
+      "typevalue": 3,
+      "children": [
+        213,
+        220
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14719,10 +15676,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 210,
       "id": 212
     },
     {
+      "typevalue": 3,
+      "children": [
+        214,
+        217
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14749,10 +15712,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 212,
       "id": 213
     },
     {
+      "typevalue": 3,
+      "children": [
+        215,
+        216
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14803,10 +15772,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 213,
       "id": 214
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14849,10 +15821,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 214,
       "id": 215
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14903,10 +15878,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 214,
       "id": 216
     },
     {
+      "typevalue": 3,
+      "children": [
+        218,
+        219
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14957,10 +15938,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 213,
       "id": 217
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15011,10 +15995,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 217,
       "id": 218
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15089,10 +16076,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 217,
       "id": 219
     },
     {
+      "typevalue": 3,
+      "children": [
+        221,
+        222
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15135,10 +16128,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 212,
       "id": 220
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15165,10 +16161,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 220,
       "id": 221
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15203,10 +16202,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 220,
       "id": 222
     },
     {
+      "typevalue": 3,
+      "children": [
+        224,
+        227
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15257,10 +16262,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 209,
       "id": 223
     },
     {
+      "typevalue": 3,
+      "children": [
+        225,
+        226
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15287,10 +16298,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 223,
       "id": 224
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15325,10 +16339,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 224,
       "id": 225
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15363,10 +16380,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 224,
       "id": 226
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15417,10 +16437,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 223,
       "id": 227
     },
     {
+      "typevalue": 3,
+      "children": [
+        229,
+        230
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15495,10 +16521,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 208,
       "id": 228
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15525,10 +16554,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 228,
       "id": 229
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15603,10 +16635,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 228,
       "id": 230
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15633,10 +16668,17 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 205,
       "id": 231
     },
     {
+      "typevalue": 3,
+      "children": [
+        233,
+        234,
+        247
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15671,10 +16713,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 204,
       "id": 232
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15701,10 +16746,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 232,
       "id": 233
     },
     {
+      "typevalue": 3,
+      "children": [
+        235,
+        242
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15731,10 +16782,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 232,
       "id": 234
     },
     {
+      "typevalue": 3,
+      "children": [
+        236,
+        239
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15761,10 +16818,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 234,
       "id": 235
     },
     {
+      "typevalue": 3,
+      "children": [
+        237,
+        238
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15807,10 +16870,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 235,
       "id": 236
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15861,10 +16927,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 236,
       "id": 237
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15971,10 +17040,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 236,
       "id": 238
     },
     {
+      "typevalue": 3,
+      "children": [
+        240,
+        241
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16001,10 +17076,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 235,
       "id": 239
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16039,10 +17117,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 239,
       "id": 240
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16077,10 +17158,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 239,
       "id": 241
     },
     {
+      "typevalue": 3,
+      "children": [
+        243,
+        244
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16107,10 +17194,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 234,
       "id": 242
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16193,10 +17283,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 242,
       "id": 243
     },
     {
+      "typevalue": 3,
+      "children": [
+        245,
+        246
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16247,10 +17343,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 242,
       "id": 244
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16277,10 +17376,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 244,
       "id": 245
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16339,10 +17441,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 244,
       "id": 246
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16393,10 +17498,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 232,
       "id": 247
     },
     {
+      "typevalue": 3,
+      "children": [
+        249,
+        250
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16487,10 +17598,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 203,
       "id": 248
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16557,10 +17671,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 248,
       "id": 249
     },
     {
+      "typevalue": 3,
+      "children": [
+        251,
+        252
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16587,10 +17707,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 248,
       "id": 250
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16633,10 +17756,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 250,
       "id": 251
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16679,10 +17805,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 250,
       "id": 252
     },
     {
+      "typevalue": 3,
+      "children": [
+        254,
+        259
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16725,10 +17857,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 192,
       "id": 253
     },
     {
+      "typevalue": 3,
+      "children": [
+        255,
+        256
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16755,10 +17893,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 253,
       "id": 254
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16785,10 +17926,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 254,
       "id": 255
     },
     {
+      "typevalue": 3,
+      "children": [
+        257,
+        258
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16831,10 +17978,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 254,
       "id": 256
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16949,10 +18099,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 256,
       "id": 257
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17027,10 +18180,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 256,
       "id": 258
     },
     {
+      "typevalue": 3,
+      "children": [
+        260,
+        261
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17073,10 +18232,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 253,
       "id": 259
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17103,10 +18265,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 259,
       "id": 260
     },
     {
+      "typevalue": 3,
+      "children": [
+        262,
+        273
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17173,10 +18341,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 259,
       "id": 261
     },
     {
+      "typevalue": 3,
+      "children": [
+        263,
+        266
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17211,10 +18385,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 261,
       "id": 262
     },
     {
+      "typevalue": 3,
+      "children": [
+        264,
+        265
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17281,10 +18461,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 262,
       "id": 263
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17327,10 +18510,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 263,
       "id": 264
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17397,10 +18583,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 263,
       "id": 265
     },
     {
+      "typevalue": 3,
+      "children": [
+        267,
+        268
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17459,10 +18651,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 262,
       "id": 266
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17489,10 +18684,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 266,
       "id": 267
     },
     {
+      "typevalue": 3,
+      "children": [
+        269,
+        270
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17551,10 +18752,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 266,
       "id": 268
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17597,10 +18801,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 268,
       "id": 269
     },
     {
+      "typevalue": 3,
+      "children": [
+        271,
+        272
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17627,10 +18837,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 268,
       "id": 270
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17681,10 +18894,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 270,
       "id": 271
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17735,10 +18951,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 270,
       "id": 272
     },
     {
+      "typevalue": 3,
+      "children": [
+        274,
+        275
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17821,10 +19043,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 261,
       "id": 273
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17875,10 +19100,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 273,
       "id": 274
     },
     {
+      "typevalue": 3,
+      "children": [
+        276,
+        277
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17953,10 +19184,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 273,
       "id": 275
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -17983,10 +19217,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 275,
       "id": 276
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18053,10 +19290,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 275,
       "id": 277
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18163,10 +19403,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 177,
       "id": 278
     },
     {
+      "typevalue": 3,
+      "children": [
+        280,
+        423
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18265,10 +19511,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 70,
       "id": 279
     },
     {
+      "typevalue": 3,
+      "children": [
+        281,
+        292
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18383,10 +19635,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 279,
       "id": 280
     },
     {
+      "typevalue": 3,
+      "children": [
+        282,
+        291
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18445,10 +19703,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 280,
       "id": 281
     },
     {
+      "typevalue": 3,
+      "children": [
+        283,
+        288
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18507,10 +19771,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 281,
       "id": 282
     },
     {
+      "typevalue": 3,
+      "children": [
+        284,
+        287
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18537,10 +19807,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 282,
       "id": 283
     },
     {
+      "typevalue": 3,
+      "children": [
+        285,
+        286
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18583,10 +19859,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 283,
       "id": 284
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18645,10 +19924,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 284,
       "id": 285
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18763,10 +20045,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 284,
       "id": 286
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18801,10 +20086,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 283,
       "id": 287
     },
     {
+      "typevalue": 3,
+      "children": [
+        289,
+        290
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18839,10 +20130,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 282,
       "id": 288
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18933,10 +20227,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 288,
       "id": 289
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -18995,10 +20292,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 288,
       "id": 290
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -19049,10 +20349,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 281,
       "id": 291
     },
     {
+      "typevalue": 3,
+      "children": [
+        293,
+        294
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -19159,10 +20465,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 280,
       "id": 292
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -19413,10 +20722,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 292,
       "id": 293
     },
     {
+      "typevalue": 3,
+      "children": [
+        295,
+        296
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -19507,10 +20822,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 292,
       "id": 294
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -19857,10 +21175,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 294,
       "id": 295
     },
     {
+      "typevalue": 3,
+      "children": [
+        297,
+        310
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -19967,10 +21291,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 294,
       "id": 296
     },
     {
+      "typevalue": 3,
+      "children": [
+        298,
+        299
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20093,10 +21423,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 296,
       "id": 297
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20163,10 +21496,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 297,
       "id": 298
     },
     {
+      "typevalue": 3,
+      "children": [
+        300,
+        307
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20241,10 +21580,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 297,
       "id": 299
     },
     {
+      "typevalue": 3,
+      "children": [
+        301,
+        302
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20439,10 +21784,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 299,
       "id": 300
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20469,10 +21817,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 300,
       "id": 301
     },
     {
+      "typevalue": 3,
+      "children": [
+        303,
+        304
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20523,10 +21877,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 300,
       "id": 302
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20553,10 +21910,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 302,
       "id": 303
     },
     {
+      "typevalue": 3,
+      "children": [
+        305,
+        306
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20663,10 +22026,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 302,
       "id": 304
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20717,10 +22083,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 304,
       "id": 305
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20771,10 +22140,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 304,
       "id": 306
     },
     {
+      "typevalue": 3,
+      "children": [
+        308,
+        309
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -20977,10 +22352,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 299,
       "id": 307
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -21063,10 +22441,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 307,
       "id": 308
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -21181,10 +22562,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 307,
       "id": 309
     },
     {
+      "typevalue": 3,
+      "children": [
+        311,
+        328
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -21435,10 +22822,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 296,
       "id": 310
     },
     {
+      "typevalue": 3,
+      "children": [
+        312,
+        313
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -21657,10 +23050,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 310,
       "id": 311
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -21719,10 +23115,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 311,
       "id": 312
     },
     {
+      "typevalue": 3,
+      "children": [
+        314,
+        315
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -21749,10 +23151,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 311,
       "id": 313
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -21803,10 +23208,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 313,
       "id": 314
     },
     {
+      "typevalue": 3,
+      "children": [
+        316,
+        325
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -21929,10 +23340,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 313,
       "id": 315
     },
     {
+      "typevalue": 3,
+      "children": [
+        317,
+        318
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -21967,10 +23384,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 315,
       "id": 316
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22029,10 +23449,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 316,
       "id": 317
     },
     {
+      "typevalue": 3,
+      "children": [
+        319,
+        324
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22059,10 +23485,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 316,
       "id": 318
     },
     {
+      "typevalue": 3,
+      "children": [
+        320,
+        323
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22089,10 +23521,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 318,
       "id": 319
     },
     {
+      "typevalue": 3,
+      "children": [
+        321,
+        322
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22127,10 +23565,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 319,
       "id": 320
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22157,10 +23598,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 320,
       "id": 321
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22227,10 +23671,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 320,
       "id": 322
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22273,10 +23720,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 319,
       "id": 323
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22327,10 +23777,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 318,
       "id": 324
     },
     {
+      "typevalue": 3,
+      "children": [
+        326,
+        327
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22381,10 +23837,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 315,
       "id": 325
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22419,10 +23878,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 325,
       "id": 326
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22521,10 +23983,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 325,
       "id": 327
     },
     {
+      "typevalue": 3,
+      "children": [
+        329,
+        358
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22671,10 +24139,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 310,
       "id": 328
     },
     {
+      "typevalue": 3,
+      "children": [
+        330,
+        357
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22829,10 +24303,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 328,
       "id": 329
     },
     {
+      "typevalue": 3,
+      "children": [
+        331,
+        338
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22867,10 +24347,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 329,
       "id": 330
     },
     {
+      "typevalue": 3,
+      "children": [
+        332,
+        333
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -22921,10 +24407,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 330,
       "id": 331
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23007,10 +24496,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 331,
       "id": 332
     },
     {
+      "typevalue": 3,
+      "children": [
+        334,
+        335
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23053,10 +24548,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 331,
       "id": 333
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23147,10 +24645,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 333,
       "id": 334
     },
     {
+      "typevalue": 3,
+      "children": [
+        336,
+        337
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23209,10 +24713,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 333,
       "id": 335
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23255,10 +24762,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 335,
       "id": 336
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23301,10 +24811,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 335,
       "id": 337
     },
     {
+      "typevalue": 3,
+      "children": [
+        339,
+        344
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23371,10 +24887,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 330,
       "id": 338
     },
     {
+      "typevalue": 3,
+      "children": [
+        340,
+        341
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23449,10 +24971,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 338,
       "id": 339
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23487,10 +25012,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 339,
       "id": 340
     },
     {
+      "typevalue": 3,
+      "children": [
+        342,
+        343
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23525,10 +25056,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 339,
       "id": 341
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23587,10 +25121,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 341,
       "id": 342
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23673,10 +25210,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 341,
       "id": 343
     },
     {
+      "typevalue": 3,
+      "children": [
+        345,
+        356
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23727,10 +25270,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 338,
       "id": 344
     },
     {
+      "typevalue": 3,
+      "children": [
+        346,
+        347
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23757,10 +25306,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 344,
       "id": 345
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23795,10 +25347,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 345,
       "id": 346
     },
     {
+      "typevalue": 3,
+      "children": [
+        348,
+        349
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23825,10 +25383,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 345,
       "id": 347
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23871,10 +25432,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 347,
       "id": 348
     },
     {
+      "typevalue": 3,
+      "children": [
+        350,
+        351
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23901,10 +25468,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 347,
       "id": 349
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -23971,10 +25541,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 349,
       "id": 350
     },
     {
+      "typevalue": 3,
+      "children": [
+        352,
+        353
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -24001,10 +25577,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 349,
       "id": 351
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -24111,10 +25690,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 351,
       "id": 352
     },
     {
+      "typevalue": 3,
+      "children": [
+        354,
+        355
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -24269,10 +25854,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 351,
       "id": 353
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -24539,10 +26127,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 353,
       "id": 354
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -24633,10 +26224,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 353,
       "id": 355
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -24663,10 +26257,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 344,
       "id": 356
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -24709,10 +26306,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 329,
       "id": 357
     },
     {
+      "typevalue": 3,
+      "children": [
+        359,
+        364
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -24755,10 +26358,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 328,
       "id": 358
     },
     {
+      "typevalue": 3,
+      "children": [
+        360,
+        361
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -24889,10 +26498,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 358,
       "id": 359
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -24999,10 +26611,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 359,
       "id": 360
     },
     {
+      "typevalue": 3,
+      "children": [
+        362,
+        363
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25077,10 +26695,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 359,
       "id": 361
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25123,10 +26744,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 361,
       "id": 362
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25241,10 +26865,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 361,
       "id": 363
     },
     {
+      "typevalue": 3,
+      "children": [
+        365,
+        410
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25311,10 +26941,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 358,
       "id": 364
     },
     {
+      "typevalue": 3,
+      "children": [
+        366,
+        407
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25461,10 +27097,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 364,
       "id": 365
     },
     {
+      "typevalue": 3,
+      "children": [
+        367,
+        374
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25547,10 +27189,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 365,
       "id": 366
     },
     {
+      "typevalue": 3,
+      "children": [
+        368,
+        373
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25585,10 +27233,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 366,
       "id": 367
     },
     {
+      "typevalue": 3,
+      "children": [
+        369,
+        372
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25639,10 +27293,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 367,
       "id": 368
     },
     {
+      "typevalue": 3,
+      "children": [
+        370,
+        371
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25669,10 +27329,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 368,
       "id": 369
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25731,10 +27394,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 369,
       "id": 370
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25857,10 +27523,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 369,
       "id": 371
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25927,10 +27596,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 368,
       "id": 372
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -25989,10 +27661,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 367,
       "id": 373
     },
     {
+      "typevalue": 3,
+      "children": [
+        375,
+        398
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26043,10 +27721,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 366,
       "id": 374
     },
     {
+      "typevalue": 3,
+      "children": [
+        376,
+        393
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26113,10 +27797,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 374,
       "id": 375
     },
     {
+      "typevalue": 3,
+      "children": [
+        377,
+        378
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26159,10 +27849,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 375,
       "id": 376
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26205,10 +27898,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 376,
       "id": 377
     },
     {
+      "typevalue": 3,
+      "children": [
+        379,
+        380
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26235,10 +27934,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 376,
       "id": 378
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26289,10 +27991,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 378,
       "id": 379
     },
     {
+      "typevalue": 3,
+      "children": [
+        381,
+        386
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26319,10 +28027,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 378,
       "id": 380
     },
     {
+      "typevalue": 3,
+      "children": [
+        382,
+        385
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26357,10 +28071,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 380,
       "id": 381
     },
     {
+      "typevalue": 3,
+      "children": [
+        383,
+        384
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26427,10 +28147,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 381,
       "id": 382
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26457,10 +28180,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 382,
       "id": 383
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26503,10 +28229,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 382,
       "id": 384
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26541,10 +28270,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 381,
       "id": 385
     },
     {
+      "typevalue": 3,
+      "children": [
+        387,
+        388
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26579,10 +28314,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 380,
       "id": 386
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26641,10 +28379,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 386,
       "id": 387
     },
     {
+      "typevalue": 3,
+      "children": [
+        389,
+        390
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26863,10 +28607,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 386,
       "id": 388
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26893,10 +28640,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 388,
       "id": 389
     },
     {
+      "typevalue": 3,
+      "children": [
+        391,
+        392
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -26939,10 +28692,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 388,
       "id": 390
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27113,10 +28869,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 390,
       "id": 391
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27215,10 +28974,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 390,
       "id": 392
     },
     {
+      "typevalue": 3,
+      "children": [
+        394,
+        397
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27253,10 +29018,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 375,
       "id": 393
     },
     {
+      "typevalue": 3,
+      "children": [
+        395,
+        396
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27291,10 +29062,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 393,
       "id": 394
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27321,10 +29095,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 394,
       "id": 395
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27375,10 +29152,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 394,
       "id": 396
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27437,10 +29217,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 393,
       "id": 397
     },
     {
+      "typevalue": 3,
+      "children": [
+        399,
+        404
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27483,10 +29269,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 374,
       "id": 398
     },
     {
+      "typevalue": 3,
+      "children": [
+        400,
+        401
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27553,10 +29345,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 398,
       "id": 399
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27583,10 +29378,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 399,
       "id": 400
     },
     {
+      "typevalue": 3,
+      "children": [
+        402,
+        403
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27621,10 +29422,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 399,
       "id": 401
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27723,10 +29527,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 401,
       "id": 402
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27769,10 +29576,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 401,
       "id": 403
     },
     {
+      "typevalue": 3,
+      "children": [
+        405,
+        406
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27831,10 +29644,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 398,
       "id": 404
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27877,10 +29693,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 404,
       "id": 405
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -27979,10 +29798,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 404,
       "id": 406
     },
     {
+      "typevalue": 3,
+      "children": [
+        408,
+        409
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28033,10 +29858,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 365,
       "id": 407
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28063,10 +29891,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 407,
       "id": 408
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28133,10 +29964,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 407,
       "id": 409
     },
     {
+      "typevalue": 3,
+      "children": [
+        411,
+        412
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28219,10 +30056,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 364,
       "id": 410
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28265,10 +30105,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 410,
       "id": 411
     },
     {
+      "typevalue": 3,
+      "children": [
+        413,
+        414
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28551,10 +30397,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 410,
       "id": 412
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28621,10 +30470,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 412,
       "id": 413
     },
     {
+      "typevalue": 3,
+      "children": [
+        415,
+        422
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28699,10 +30554,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 412,
       "id": 414
     },
     {
+      "typevalue": 3,
+      "children": [
+        416,
+        417
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28817,10 +30678,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 414,
       "id": 415
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28879,10 +30743,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 415,
       "id": 416
     },
     {
+      "typevalue": 3,
+      "children": [
+        418,
+        419
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28925,10 +30795,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 415,
       "id": 417
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -28979,10 +30852,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 417,
       "id": 418
     },
     {
+      "typevalue": 3,
+      "children": [
+        420,
+        421
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -29009,10 +30888,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 417,
       "id": 419
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -29087,10 +30969,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 419,
       "id": 420
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -29237,10 +31122,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 419,
       "id": 421
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -29387,10 +31275,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 414,
       "id": 422
     },
     {
+      "typevalue": 3,
+      "children": [
+        424,
+        427
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -29497,10 +31391,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 279,
       "id": 423
     },
     {
+      "typevalue": 3,
+      "children": [
+        425,
+        426
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -29543,10 +31443,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 423,
       "id": 424
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -29581,10 +31484,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 424,
       "id": 425
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -29627,10 +31533,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 424,
       "id": 426
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -29921,7 +31830,7 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 423,
       "id": 427
     }
   ]

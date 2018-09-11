@@ -66,7 +66,6 @@ def save_morph_as_json (input, output) :
         "soma": soma
     }
 
-
     for section in morph.sections:
         # for types that have a polyline/polycylinder shape
         if section.type == NeuriteType.axon or section.type == NeuriteType.apical_dendrite or section.type == NeuriteType.basal_dendrite:
@@ -81,7 +80,10 @@ def save_morph_as_json (input, output) :
 
             current_section = {
                 "id": section.id,
-                "type": section.type._name_,
+                "parent": section.parent.id if section.parent else None,
+                "children": list(map(lambda x: x.id, section.children)),
+                "typename": section.type._name_,
+                "typevalue": section.type._value_,
                 "points": points
             }
 
@@ -95,9 +97,13 @@ def save_morph_as_json (input, output) :
             soma["radius"] = 5
 
 
-    #pprint(morpho_to_export)
+
+        #pprint(vars(section))
+
+
 
     json_data = json.dumps(morpho_to_export, ensure_ascii=True, indent=2)
+    #json_data = json.dumps(morpho_to_export)
     f = open(output,'w')
     f.write(json_data)
     f.close()

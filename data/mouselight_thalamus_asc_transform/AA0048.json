@@ -1,16 +1,22 @@
 {
   "soma": {
-    "radius": 5,
+    "id": 0,
     "center": [
       6951.25,
       4587.084999999999,
       6473.745
     ],
-    "type": "soma",
-    "id": 0
+    "radius": 5,
+    "type": "soma"
   },
   "sections": [
     {
+      "typevalue": 3,
+      "children": [
+        2,
+        137
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -413,10 +419,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": null,
       "id": 1
     },
     {
+      "typevalue": 3,
+      "children": [
+        3,
+        130
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -451,10 +463,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 1,
       "id": 2
     },
     {
+      "typevalue": 3,
+      "children": [
+        4,
+        121
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -497,10 +515,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 2,
       "id": 3
     },
     {
+      "typevalue": 3,
+      "children": [
+        5,
+        104
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -1127,10 +1151,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 3,
       "id": 4
     },
     {
+      "typevalue": 3,
+      "children": [
+        6,
+        83
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -1645,10 +1675,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 4,
       "id": 5
     },
     {
+      "typevalue": 3,
+      "children": [
+        7,
+        22
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -1763,10 +1799,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 5,
       "id": 6
     },
     {
+      "typevalue": 3,
+      "children": [
+        8,
+        13
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -1945,10 +1987,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 6,
       "id": 7
     },
     {
+      "typevalue": 3,
+      "children": [
+        9,
+        10
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -2047,10 +2095,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 7,
       "id": 8
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -2421,10 +2472,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 8,
       "id": 9
     },
     {
+      "typevalue": 3,
+      "children": [
+        11,
+        12
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -2683,10 +2740,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 8,
       "id": 10
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -2777,10 +2837,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 10,
       "id": 11
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -2839,10 +2902,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 10,
       "id": 12
     },
     {
+      "typevalue": 3,
+      "children": [
+        14,
+        21
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3061,10 +3130,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 7,
       "id": 13
     },
     {
+      "typevalue": 3,
+      "children": [
+        15,
+        20
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3227,10 +3302,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 13,
       "id": 14
     },
     {
+      "typevalue": 3,
+      "children": [
+        16,
+        19
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3305,10 +3386,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 14,
       "id": 15
     },
     {
+      "typevalue": 3,
+      "children": [
+        17,
+        18
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3343,10 +3430,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 15,
       "id": 16
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3397,10 +3487,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 16,
       "id": 17
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3443,10 +3536,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 16,
       "id": 18
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3521,10 +3617,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 15,
       "id": 19
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3607,10 +3706,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 14,
       "id": 20
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3709,10 +3811,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 13,
       "id": 21
     },
     {
+      "typevalue": 3,
+      "children": [
+        23,
+        72
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -3851,10 +3959,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 6,
       "id": 22
     },
     {
+      "typevalue": 3,
+      "children": [
+        24,
+        29
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4065,10 +4179,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 22,
       "id": 23
     },
     {
+      "typevalue": 3,
+      "children": [
+        25,
+        26
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4159,10 +4279,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 23,
       "id": 24
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4213,10 +4336,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 24,
       "id": 25
     },
     {
+      "typevalue": 3,
+      "children": [
+        27,
+        28
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4283,10 +4412,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 24,
       "id": 26
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4313,10 +4445,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 26,
       "id": 27
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4447,10 +4582,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 26,
       "id": 28
     },
     {
+      "typevalue": 3,
+      "children": [
+        30,
+        71
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4581,10 +4722,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 23,
       "id": 29
     },
     {
+      "typevalue": 3,
+      "children": [
+        31,
+        60
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4651,10 +4798,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 29,
       "id": 30
     },
     {
+      "typevalue": 3,
+      "children": [
+        32,
+        55
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4721,10 +4874,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 30,
       "id": 31
     },
     {
+      "typevalue": 3,
+      "children": [
+        33,
+        44
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4751,10 +4910,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 31,
       "id": 32
     },
     {
+      "typevalue": 3,
+      "children": [
+        34,
+        39
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4805,10 +4970,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 32,
       "id": 33
     },
     {
+      "typevalue": 3,
+      "children": [
+        35,
+        38
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4875,10 +5046,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 33,
       "id": 34
     },
     {
+      "typevalue": 3,
+      "children": [
+        36,
+        37
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4905,10 +5082,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 34,
       "id": 35
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -4967,10 +5147,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 35,
       "id": 36
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5077,10 +5260,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 35,
       "id": 37
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5307,10 +5493,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 34,
       "id": 38
     },
     {
+      "typevalue": 3,
+      "children": [
+        40,
+        41
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5353,10 +5545,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 33,
       "id": 39
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5695,10 +5890,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 39,
       "id": 40
     },
     {
+      "typevalue": 3,
+      "children": [
+        42,
+        43
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5741,10 +5942,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 39,
       "id": 41
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5771,10 +5975,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 41,
       "id": 42
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5801,10 +6008,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 41,
       "id": 43
     },
     {
+      "typevalue": 3,
+      "children": [
+        45,
+        50
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5871,10 +6084,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 32,
       "id": 44
     },
     {
+      "typevalue": 3,
+      "children": [
+        46,
+        49
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5909,10 +6128,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 44,
       "id": 45
     },
     {
+      "typevalue": 3,
+      "children": [
+        47,
+        48
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -5971,10 +6196,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 45,
       "id": 46
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6169,10 +6397,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 46,
       "id": 47
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6247,10 +6478,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 46,
       "id": 48
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6349,10 +6583,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 45,
       "id": 49
     },
     {
+      "typevalue": 3,
+      "children": [
+        51,
+        54
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6427,10 +6667,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 44,
       "id": 50
     },
     {
+      "typevalue": 3,
+      "children": [
+        52,
+        53
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6473,10 +6719,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 50,
       "id": 51
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6623,10 +6872,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 51,
       "id": 52
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6701,10 +6953,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 51,
       "id": 53
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6787,10 +7042,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 50,
       "id": 54
     },
     {
+      "typevalue": 3,
+      "children": [
+        56,
+        59
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -6817,10 +7078,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 31,
       "id": 55
     },
     {
+      "typevalue": 3,
+      "children": [
+        57,
+        58
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7007,10 +7274,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 55,
       "id": 56
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7045,10 +7315,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 56,
       "id": 57
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7163,10 +7436,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 56,
       "id": 58
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7433,10 +7709,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 55,
       "id": 59
     },
     {
+      "typevalue": 3,
+      "children": [
+        61,
+        70
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7479,10 +7761,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 30,
       "id": 60
     },
     {
+      "typevalue": 3,
+      "children": [
+        62,
+        69
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7509,10 +7797,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 60,
       "id": 61
     },
     {
+      "typevalue": 3,
+      "children": [
+        63,
+        68
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7571,10 +7865,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 61,
       "id": 62
     },
     {
+      "typevalue": 3,
+      "children": [
+        64,
+        67
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7601,10 +7901,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 62,
       "id": 63
     },
     {
+      "typevalue": 3,
+      "children": [
+        65,
+        66
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7647,10 +7953,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 63,
       "id": 64
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7749,10 +8058,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 64,
       "id": 65
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -7867,10 +8179,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 64,
       "id": 66
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8081,10 +8396,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 63,
       "id": 67
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8263,10 +8581,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 62,
       "id": 68
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8533,10 +8854,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 61,
       "id": 69
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -8803,10 +9127,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 60,
       "id": 70
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9033,10 +9360,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 29,
       "id": 71
     },
     {
+      "typevalue": 3,
+      "children": [
+        73,
+        78
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9175,10 +9508,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 22,
       "id": 72
     },
     {
+      "typevalue": 3,
+      "children": [
+        74,
+        75
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9333,10 +9672,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 72,
       "id": 73
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9419,10 +9761,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 73,
       "id": 74
     },
     {
+      "typevalue": 3,
+      "children": [
+        76,
+        77
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9513,10 +9861,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 73,
       "id": 75
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9543,10 +9894,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 75,
       "id": 76
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9701,10 +10055,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 75,
       "id": 77
     },
     {
+      "typevalue": 3,
+      "children": [
+        79,
+        82
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -9955,10 +10315,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 72,
       "id": 78
     },
     {
+      "typevalue": 3,
+      "children": [
+        80,
+        81
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10001,10 +10367,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 78,
       "id": 79
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10135,10 +10504,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 79,
       "id": 80
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10293,10 +10665,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 79,
       "id": 81
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10363,10 +10738,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 78,
       "id": 82
     },
     {
+      "typevalue": 3,
+      "children": [
+        84,
+        101
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10505,10 +10886,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 5,
       "id": 83
     },
     {
+      "typevalue": 3,
+      "children": [
+        85,
+        98
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10863,10 +11250,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 83,
       "id": 84
     },
     {
+      "typevalue": 3,
+      "children": [
+        86,
+        97
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10957,10 +11350,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 84,
       "id": 85
     },
     {
+      "typevalue": 3,
+      "children": [
+        87,
+        88
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -10987,10 +11386,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 85,
       "id": 86
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11249,10 +11651,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 86,
       "id": 87
     },
     {
+      "typevalue": 3,
+      "children": [
+        89,
+        96
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11319,10 +11727,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 86,
       "id": 88
     },
     {
+      "typevalue": 3,
+      "children": [
+        90,
+        95
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11461,10 +11875,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 88,
       "id": 89
     },
     {
+      "typevalue": 3,
+      "children": [
+        91,
+        94
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11531,10 +11951,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 89,
       "id": 90
     },
     {
+      "typevalue": 3,
+      "children": [
+        92,
+        93
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11601,10 +12027,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 90,
       "id": 91
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11647,10 +12076,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 91,
       "id": 92
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11693,10 +12125,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 91,
       "id": 93
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11739,10 +12174,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 90,
       "id": 94
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -11961,10 +12399,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 89,
       "id": 95
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12007,10 +12448,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 88,
       "id": 96
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12093,10 +12537,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 85,
       "id": 97
     },
     {
+      "typevalue": 3,
+      "children": [
+        99,
+        100
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12243,10 +12693,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 84,
       "id": 98
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12329,10 +12782,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 98,
       "id": 99
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12383,10 +12839,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 98,
       "id": 100
     },
     {
+      "typevalue": 3,
+      "children": [
+        102,
+        103
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12485,10 +12947,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 83,
       "id": 101
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12547,10 +13012,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 101,
       "id": 102
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12825,10 +13293,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 101,
       "id": 103
     },
     {
+      "typevalue": 3,
+      "children": [
+        105,
+        106
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -12991,10 +13465,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 4,
       "id": 104
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13037,10 +13514,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 104,
       "id": 105
     },
     {
+      "typevalue": 3,
+      "children": [
+        107,
+        110
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13075,10 +13558,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 104,
       "id": 106
     },
     {
+      "typevalue": 3,
+      "children": [
+        108,
+        109
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13113,10 +13602,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 106,
       "id": 107
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13703,10 +14195,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 107,
       "id": 108
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -13973,10 +14468,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 107,
       "id": 109
     },
     {
+      "typevalue": 3,
+      "children": [
+        111,
+        112
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14059,10 +14560,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 106,
       "id": 110
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14113,10 +14617,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 110,
       "id": 111
     },
     {
+      "typevalue": 3,
+      "children": [
+        113,
+        116
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14183,10 +14693,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 110,
       "id": 112
     },
     {
+      "typevalue": 3,
+      "children": [
+        114,
+        115
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14221,10 +14737,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 112,
       "id": 113
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14259,10 +14778,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 113,
       "id": 114
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14369,10 +14891,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 113,
       "id": 115
     },
     {
+      "typevalue": 3,
+      "children": [
+        117,
+        120
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14431,10 +14959,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 112,
       "id": 116
     },
     {
+      "typevalue": 3,
+      "children": [
+        118,
+        119
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14589,10 +15123,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 116,
       "id": 117
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14651,10 +15188,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 117,
       "id": 118
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14897,10 +15437,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 117,
       "id": 119
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14935,10 +15478,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 116,
       "id": 120
     },
     {
+      "typevalue": 3,
+      "children": [
+        122,
+        125
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -14997,10 +15546,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 3,
       "id": 121
     },
     {
+      "typevalue": 3,
+      "children": [
+        123,
+        124
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15035,10 +15590,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 121,
       "id": 122
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15065,10 +15623,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 122,
       "id": 123
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15255,10 +15816,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 122,
       "id": 124
     },
     {
+      "typevalue": 3,
+      "children": [
+        126,
+        127
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15301,10 +15868,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 121,
       "id": 125
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15339,10 +15909,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 125,
       "id": 126
     },
     {
+      "typevalue": 3,
+      "children": [
+        128,
+        129
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15417,10 +15993,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 125,
       "id": 127
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15503,10 +16082,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 127,
       "id": 128
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15725,10 +16307,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 127,
       "id": 129
     },
     {
+      "typevalue": 3,
+      "children": [
+        131,
+        132
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15819,10 +16407,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 2,
       "id": 130
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15889,10 +16480,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 130,
       "id": 131
     },
     {
+      "typevalue": 3,
+      "children": [
+        133,
+        134
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15935,10 +16532,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 130,
       "id": 132
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -15981,10 +16581,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 132,
       "id": 133
     },
     {
+      "typevalue": 3,
+      "children": [
+        135,
+        136
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16083,10 +16689,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 132,
       "id": 134
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16113,10 +16722,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 134,
       "id": 135
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16143,10 +16755,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 134,
       "id": 136
     },
     {
+      "typevalue": 3,
+      "children": [
+        138,
+        143
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16189,10 +16807,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 1,
       "id": 137
     },
     {
+      "typevalue": 3,
+      "children": [
+        139,
+        142
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16219,10 +16843,16 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 137,
       "id": 138
     },
     {
+      "typevalue": 3,
+      "children": [
+        140,
+        141
+      ],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16257,10 +16887,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 138,
       "id": 139
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16399,10 +17032,13 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 139,
       "id": 140
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16485,10 +17121,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 139,
       "id": 141
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16555,10 +17194,13 @@
           "radius": 0.5
         }
       ],
-      "type": "axon",
+      "parent": 138,
       "id": 142
     },
     {
+      "typevalue": 3,
+      "children": [],
+      "typename": "axon",
       "points": [
         {
           "position": [
@@ -16665,10 +17307,16 @@
           "radius": 1.0
         }
       ],
-      "type": "axon",
+      "parent": 137,
       "id": 143
     },
     {
+      "typevalue": 4,
+      "children": [
+        145,
+        148
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -16695,10 +17343,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 144
     },
     {
+      "typevalue": 4,
+      "children": [
+        146,
+        147
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -16733,10 +17387,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 144,
       "id": 145
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -16795,10 +17452,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 145,
       "id": 146
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -16841,10 +17501,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 145,
       "id": 147
     },
     {
+      "typevalue": 4,
+      "children": [
+        149,
+        150
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -16895,10 +17561,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 144,
       "id": 148
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -16933,10 +17602,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 148,
       "id": 149
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -16995,10 +17667,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 148,
       "id": 150
     },
     {
+      "typevalue": 4,
+      "children": [
+        152,
+        167
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17033,10 +17711,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 151
     },
     {
+      "typevalue": 4,
+      "children": [
+        153,
+        154
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17063,10 +17747,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 151,
       "id": 152
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17173,10 +17860,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 152,
       "id": 153
     },
     {
+      "typevalue": 4,
+      "children": [
+        155,
+        166
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17211,10 +17904,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 152,
       "id": 154
     },
     {
+      "typevalue": 4,
+      "children": [
+        156,
+        157
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17241,10 +17940,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 154,
       "id": 155
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17295,10 +17997,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 155,
       "id": 156
     },
     {
+      "typevalue": 4,
+      "children": [
+        158,
+        165
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17333,10 +18041,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 155,
       "id": 157
     },
     {
+      "typevalue": 4,
+      "children": [
+        159,
+        164
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17371,10 +18085,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 157,
       "id": 158
     },
     {
+      "typevalue": 4,
+      "children": [
+        160,
+        161
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17409,10 +18129,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 158,
       "id": 159
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17471,10 +18194,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 159,
       "id": 160
     },
     {
+      "typevalue": 4,
+      "children": [
+        162,
+        163
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17565,10 +18294,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 159,
       "id": 161
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17651,10 +18383,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 161,
       "id": 162
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17681,10 +18416,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 161,
       "id": 163
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17759,10 +18497,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 158,
       "id": 164
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17821,10 +18562,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 157,
       "id": 165
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17907,10 +18651,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 154,
       "id": 166
     },
     {
+      "typevalue": 4,
+      "children": [
+        168,
+        191
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17937,10 +18687,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 151,
       "id": 167
     },
     {
+      "typevalue": 4,
+      "children": [
+        169,
+        184
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -17967,10 +18723,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 167,
       "id": 168
     },
     {
+      "typevalue": 4,
+      "children": [
+        170,
+        179
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18005,10 +18767,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 168,
       "id": 169
     },
     {
+      "typevalue": 4,
+      "children": [
+        171,
+        172
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18035,10 +18803,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 169,
       "id": 170
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18113,10 +18884,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 170,
       "id": 171
     },
     {
+      "typevalue": 4,
+      "children": [
+        173,
+        176
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18143,10 +18920,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 170,
       "id": 172
     },
     {
+      "typevalue": 4,
+      "children": [
+        174,
+        175
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18173,10 +18956,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 172,
       "id": 173
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18227,10 +19013,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 173,
       "id": 174
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18281,10 +19070,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 173,
       "id": 175
     },
     {
+      "typevalue": 4,
+      "children": [
+        177,
+        178
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18319,10 +19114,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 172,
       "id": 176
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18365,10 +19163,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 176,
       "id": 177
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18403,10 +19204,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 176,
       "id": 178
     },
     {
+      "typevalue": 4,
+      "children": [
+        180,
+        181
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18433,10 +19240,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 169,
       "id": 179
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18503,10 +19313,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 179,
       "id": 180
     },
     {
+      "typevalue": 4,
+      "children": [
+        182,
+        183
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18541,10 +19357,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 179,
       "id": 181
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18603,10 +19422,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 181,
       "id": 182
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18665,10 +19487,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 181,
       "id": 183
     },
     {
+      "typevalue": 4,
+      "children": [
+        185,
+        188
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18695,10 +19523,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 168,
       "id": 184
     },
     {
+      "typevalue": 4,
+      "children": [
+        186,
+        187
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18725,10 +19559,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 184,
       "id": 185
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18827,10 +19664,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 185,
       "id": 186
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18921,10 +19761,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 185,
       "id": 187
     },
     {
+      "typevalue": 4,
+      "children": [
+        189,
+        190
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18959,10 +19805,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 184,
       "id": 188
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -18997,10 +19846,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 188,
       "id": 189
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19059,10 +19911,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 188,
       "id": 190
     },
     {
+      "typevalue": 4,
+      "children": [
+        192,
+        199
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19113,10 +19971,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 167,
       "id": 191
     },
     {
+      "typevalue": 4,
+      "children": [
+        193,
+        194
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19143,10 +20007,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 191,
       "id": 192
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19197,10 +20064,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 192,
       "id": 193
     },
     {
+      "typevalue": 4,
+      "children": [
+        195,
+        196
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19227,10 +20100,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 192,
       "id": 194
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19297,10 +20173,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 194,
       "id": 195
     },
     {
+      "typevalue": 4,
+      "children": [
+        197,
+        198
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19327,10 +20209,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 194,
       "id": 196
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19381,10 +20266,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 196,
       "id": 197
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19435,10 +20323,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 196,
       "id": 198
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19481,10 +20372,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 191,
       "id": 199
     },
     {
+      "typevalue": 4,
+      "children": [
+        201,
+        250
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19519,10 +20416,16 @@
           "radius": 1.0
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 200
     },
     {
+      "typevalue": 4,
+      "children": [
+        202,
+        245
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19549,10 +20452,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 200,
       "id": 201
     },
     {
+      "typevalue": 4,
+      "children": [
+        203,
+        228
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19587,10 +20496,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 201,
       "id": 202
     },
     {
+      "typevalue": 4,
+      "children": [
+        204,
+        219
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19617,10 +20532,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 202,
       "id": 203
     },
     {
+      "typevalue": 4,
+      "children": [
+        205,
+        208
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19647,10 +20568,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 203,
       "id": 204
     },
     {
+      "typevalue": 4,
+      "children": [
+        206,
+        207
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19701,10 +20628,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 204,
       "id": 205
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19747,10 +20677,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 205,
       "id": 206
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19809,10 +20742,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 205,
       "id": 207
     },
     {
+      "typevalue": 4,
+      "children": [
+        209,
+        218
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19847,10 +20786,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 204,
       "id": 208
     },
     {
+      "typevalue": 4,
+      "children": [
+        210,
+        215
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19877,10 +20822,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 208,
       "id": 209
     },
     {
+      "typevalue": 4,
+      "children": [
+        211,
+        212
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19907,10 +20858,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 209,
       "id": 210
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19969,10 +20923,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 210,
       "id": 211
     },
     {
+      "typevalue": 4,
+      "children": [
+        213,
+        214
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -19999,10 +20959,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 210,
       "id": 212
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20029,10 +20992,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 212,
       "id": 213
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20099,10 +21065,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 212,
       "id": 214
     },
     {
+      "typevalue": 4,
+      "children": [
+        216,
+        217
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20129,10 +21101,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 209,
       "id": 215
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20191,10 +21166,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 215,
       "id": 216
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20269,10 +21247,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 215,
       "id": 217
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20331,10 +21312,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 208,
       "id": 218
     },
     {
+      "typevalue": 4,
+      "children": [
+        220,
+        223
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20369,10 +21356,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 203,
       "id": 219
     },
     {
+      "typevalue": 4,
+      "children": [
+        221,
+        222
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20439,10 +21432,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 219,
       "id": 220
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20477,10 +21473,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 220,
       "id": 221
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20507,10 +21506,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 220,
       "id": 222
     },
     {
+      "typevalue": 4,
+      "children": [
+        224,
+        227
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20609,10 +21614,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 219,
       "id": 223
     },
     {
+      "typevalue": 4,
+      "children": [
+        225,
+        226
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20655,10 +21666,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 223,
       "id": 224
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20709,10 +21723,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 224,
       "id": 225
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20771,10 +21788,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 224,
       "id": 226
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20809,10 +21829,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 223,
       "id": 227
     },
     {
+      "typevalue": 4,
+      "children": [
+        229,
+        244
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20839,10 +21865,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 202,
       "id": 228
     },
     {
+      "typevalue": 4,
+      "children": [
+        230,
+        239
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20869,10 +21901,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 228,
       "id": 229
     },
     {
+      "typevalue": 4,
+      "children": [
+        231,
+        232
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -20907,10 +21945,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 229,
       "id": 230
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21017,10 +22058,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 230,
       "id": 231
     },
     {
+      "typevalue": 4,
+      "children": [
+        233,
+        234
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21047,10 +22094,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 230,
       "id": 232
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21141,10 +22191,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 232,
       "id": 233
     },
     {
+      "typevalue": 4,
+      "children": [
+        235,
+        236
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21187,10 +22243,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 232,
       "id": 234
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21241,10 +22300,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 234,
       "id": 235
     },
     {
+      "typevalue": 4,
+      "children": [
+        237,
+        238
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21271,10 +22336,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 234,
       "id": 236
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21309,10 +22377,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 236,
       "id": 237
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21371,10 +22442,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 236,
       "id": 238
     },
     {
+      "typevalue": 4,
+      "children": [
+        240,
+        243
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21425,10 +22502,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 229,
       "id": 239
     },
     {
+      "typevalue": 4,
+      "children": [
+        241,
+        242
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21455,10 +22538,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 239,
       "id": 240
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21493,10 +22579,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 240,
       "id": 241
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21539,10 +22628,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 240,
       "id": 242
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21585,10 +22677,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 239,
       "id": 243
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21671,10 +22766,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 228,
       "id": 244
     },
     {
+      "typevalue": 4,
+      "children": [
+        246,
+        249
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21709,10 +22810,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 201,
       "id": 245
     },
     {
+      "typevalue": 4,
+      "children": [
+        247,
+        248
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21755,10 +22862,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 245,
       "id": 246
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21817,10 +22927,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 246,
       "id": 247
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21895,10 +23008,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 246,
       "id": 248
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21957,10 +23073,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 245,
       "id": 249
     },
     {
+      "typevalue": 4,
+      "children": [
+        251,
+        272
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -21995,10 +23117,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 200,
       "id": 250
     },
     {
+      "typevalue": 4,
+      "children": [
+        252,
+        257
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22025,10 +23153,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 250,
       "id": 251
     },
     {
+      "typevalue": 4,
+      "children": [
+        253,
+        254
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22055,10 +23189,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 251,
       "id": 252
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22173,10 +23310,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 252,
       "id": 253
     },
     {
+      "typevalue": 4,
+      "children": [
+        255,
+        256
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22227,10 +23370,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 252,
       "id": 254
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22289,10 +23435,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 254,
       "id": 255
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22327,10 +23476,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 254,
       "id": 256
     },
     {
+      "typevalue": 4,
+      "children": [
+        258,
+        269
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22357,10 +23512,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 251,
       "id": 257
     },
     {
+      "typevalue": 4,
+      "children": [
+        259,
+        268
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22387,10 +23548,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 257,
       "id": 258
     },
     {
+      "typevalue": 4,
+      "children": [
+        260,
+        263
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22417,10 +23584,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 258,
       "id": 259
     },
     {
+      "typevalue": 4,
+      "children": [
+        261,
+        262
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22463,10 +23636,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 259,
       "id": 260
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22517,10 +23693,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 260,
       "id": 261
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22579,10 +23758,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 260,
       "id": 262
     },
     {
+      "typevalue": 4,
+      "children": [
+        264,
+        267
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22617,10 +23802,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 259,
       "id": 263
     },
     {
+      "typevalue": 4,
+      "children": [
+        265,
+        266
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22647,10 +23838,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 263,
       "id": 264
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22709,10 +23903,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 264,
       "id": 265
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22811,10 +24008,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 264,
       "id": 266
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22873,10 +24073,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 263,
       "id": 267
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22935,10 +24138,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 258,
       "id": 268
     },
     {
+      "typevalue": 4,
+      "children": [
+        270,
+        271
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -22973,10 +24182,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 257,
       "id": 269
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23043,10 +24255,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 269,
       "id": 270
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23097,10 +24312,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 269,
       "id": 271
     },
     {
+      "typevalue": 4,
+      "children": [
+        273,
+        280
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23127,10 +24348,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 250,
       "id": 272
     },
     {
+      "typevalue": 4,
+      "children": [
+        274,
+        277
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23157,10 +24384,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 272,
       "id": 273
     },
     {
+      "typevalue": 4,
+      "children": [
+        275,
+        276
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23187,10 +24420,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 273,
       "id": 274
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23257,10 +24493,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 274,
       "id": 275
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23335,10 +24574,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 274,
       "id": 276
     },
     {
+      "typevalue": 4,
+      "children": [
+        278,
+        279
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23373,10 +24618,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 273,
       "id": 277
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23435,10 +24683,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 277,
       "id": 278
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23489,10 +24740,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 277,
       "id": 279
     },
     {
+      "typevalue": 4,
+      "children": [
+        281,
+        286
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23519,10 +24776,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 272,
       "id": 280
     },
     {
+      "typevalue": 4,
+      "children": [
+        282,
+        285
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23549,10 +24812,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 280,
       "id": 281
     },
     {
+      "typevalue": 4,
+      "children": [
+        283,
+        284
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23587,10 +24856,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 281,
       "id": 282
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23633,10 +24905,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 282,
       "id": 283
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23687,10 +24962,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 282,
       "id": 284
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23765,10 +25043,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 281,
       "id": 285
     },
     {
+      "typevalue": 4,
+      "children": [
+        287,
+        290
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23795,10 +25079,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 280,
       "id": 286
     },
     {
+      "typevalue": 4,
+      "children": [
+        288,
+        289
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23833,10 +25123,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 286,
       "id": 287
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23895,10 +25188,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 287,
       "id": 288
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23925,10 +25221,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 287,
       "id": 289
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -23963,10 +25262,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 286,
       "id": 290
     },
     {
+      "typevalue": 4,
+      "children": [
+        292,
+        293
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24001,10 +25306,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 291
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24079,10 +25387,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 291,
       "id": 292
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24181,10 +25492,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 291,
       "id": 293
     },
     {
+      "typevalue": 4,
+      "children": [
+        295,
+        300
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24219,10 +25536,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 294
     },
     {
+      "typevalue": 4,
+      "children": [
+        296,
+        297
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24249,10 +25572,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 294,
       "id": 295
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24335,10 +25661,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 295,
       "id": 296
     },
     {
+      "typevalue": 4,
+      "children": [
+        298,
+        299
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24389,10 +25721,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 295,
       "id": 297
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24451,10 +25786,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 297,
       "id": 298
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24521,10 +25859,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 297,
       "id": 299
     },
     {
+      "typevalue": 4,
+      "children": [
+        301,
+        334
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24551,10 +25895,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 294,
       "id": 300
     },
     {
+      "typevalue": 4,
+      "children": [
+        302,
+        317
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24581,10 +25931,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 300,
       "id": 301
     },
     {
+      "typevalue": 4,
+      "children": [
+        303,
+        316
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24611,10 +25967,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 301,
       "id": 302
     },
     {
+      "typevalue": 4,
+      "children": [
+        304,
+        311
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24649,10 +26011,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 302,
       "id": 303
     },
     {
+      "typevalue": 4,
+      "children": [
+        305,
+        308
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24679,10 +26047,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 303,
       "id": 304
     },
     {
+      "typevalue": 4,
+      "children": [
+        306,
+        307
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24717,10 +26091,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 304,
       "id": 305
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24755,10 +26132,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 305,
       "id": 306
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24809,10 +26189,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 305,
       "id": 307
     },
     {
+      "typevalue": 4,
+      "children": [
+        309,
+        310
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24839,10 +26225,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 304,
       "id": 308
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24901,10 +26290,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 308,
       "id": 309
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24955,10 +26347,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 308,
       "id": 310
     },
     {
+      "typevalue": 4,
+      "children": [
+        312,
+        315
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -24993,10 +26391,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 303,
       "id": 311
     },
     {
+      "typevalue": 4,
+      "children": [
+        313,
+        314
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25031,10 +26435,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 311,
       "id": 312
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25061,10 +26468,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 312,
       "id": 313
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25099,10 +26509,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 312,
       "id": 314
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25153,10 +26566,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 311,
       "id": 315
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25231,10 +26647,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 302,
       "id": 316
     },
     {
+      "typevalue": 4,
+      "children": [
+        318,
+        329
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25261,10 +26683,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 301,
       "id": 317
     },
     {
+      "typevalue": 4,
+      "children": [
+        319,
+        322
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25291,10 +26719,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 317,
       "id": 318
     },
     {
+      "typevalue": 4,
+      "children": [
+        320,
+        321
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25321,10 +26755,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 318,
       "id": 319
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25391,10 +26828,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 319,
       "id": 320
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25453,10 +26893,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 319,
       "id": 321
     },
     {
+      "typevalue": 4,
+      "children": [
+        323,
+        326
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25483,10 +26929,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 318,
       "id": 322
     },
     {
+      "typevalue": 4,
+      "children": [
+        324,
+        325
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25537,10 +26989,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 322,
       "id": 323
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25575,10 +27030,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 323,
       "id": 324
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25621,10 +27079,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 323,
       "id": 325
     },
     {
+      "typevalue": 4,
+      "children": [
+        327,
+        328
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25667,10 +27131,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 322,
       "id": 326
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25713,10 +27180,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 326,
       "id": 327
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25783,10 +27253,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 326,
       "id": 328
     },
     {
+      "typevalue": 4,
+      "children": [
+        330,
+        333
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25821,10 +27297,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 317,
       "id": 329
     },
     {
+      "typevalue": 4,
+      "children": [
+        331,
+        332
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25851,10 +27333,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 329,
       "id": 330
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25897,10 +27382,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 330,
       "id": 331
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25943,10 +27431,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 330,
       "id": 332
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -25997,10 +27488,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 329,
       "id": 333
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26083,10 +27577,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 300,
       "id": 334
     },
     {
+      "typevalue": 4,
+      "children": [
+        336,
+        341
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26121,10 +27621,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 335
     },
     {
+      "typevalue": 4,
+      "children": [
+        337,
+        340
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26159,10 +27665,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 335,
       "id": 336
     },
     {
+      "typevalue": 4,
+      "children": [
+        338,
+        339
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26197,10 +27709,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 336,
       "id": 337
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26251,10 +27766,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 337,
       "id": 338
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26297,10 +27815,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 337,
       "id": 339
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26383,10 +27904,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 336,
       "id": 340
     },
     {
+      "typevalue": 4,
+      "children": [
+        342,
+        349
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26413,10 +27940,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 335,
       "id": 341
     },
     {
+      "typevalue": 4,
+      "children": [
+        343,
+        348
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26443,10 +27976,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 341,
       "id": 342
     },
     {
+      "typevalue": 4,
+      "children": [
+        344,
+        347
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26481,10 +28020,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 342,
       "id": 343
     },
     {
+      "typevalue": 4,
+      "children": [
+        345,
+        346
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26511,10 +28056,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 343,
       "id": 344
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26557,10 +28105,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 344,
       "id": 345
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26611,10 +28162,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 344,
       "id": 346
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26665,10 +28219,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 343,
       "id": 347
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26727,10 +28284,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 342,
       "id": 348
     },
     {
+      "typevalue": 4,
+      "children": [
+        350,
+        351
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26757,10 +28320,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 341,
       "id": 349
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26851,10 +28417,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 349,
       "id": 350
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26921,10 +28490,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 349,
       "id": 351
     },
     {
+      "typevalue": 4,
+      "children": [
+        353,
+        360
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26959,10 +28534,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 352
     },
     {
+      "typevalue": 4,
+      "children": [
+        354,
+        357
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -26989,10 +28570,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 352,
       "id": 353
     },
     {
+      "typevalue": 4,
+      "children": [
+        355,
+        356
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27027,10 +28614,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 353,
       "id": 354
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27105,10 +28695,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 354,
       "id": 355
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27159,10 +28752,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 354,
       "id": 356
     },
     {
+      "typevalue": 4,
+      "children": [
+        358,
+        359
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27197,10 +28796,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 353,
       "id": 357
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27251,10 +28853,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 357,
       "id": 358
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27305,10 +28910,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 357,
       "id": 359
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27375,10 +28983,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 352,
       "id": 360
     },
     {
+      "typevalue": 4,
+      "children": [
+        362,
+        371
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27421,10 +29035,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 361
     },
     {
+      "typevalue": 4,
+      "children": [
+        363,
+        366
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27451,10 +29071,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 361,
       "id": 362
     },
     {
+      "typevalue": 4,
+      "children": [
+        364,
+        365
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27489,10 +29115,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 362,
       "id": 363
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27551,10 +29180,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 363,
       "id": 364
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27621,10 +29253,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 363,
       "id": 365
     },
     {
+      "typevalue": 4,
+      "children": [
+        367,
+        370
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27683,10 +29321,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 362,
       "id": 366
     },
     {
+      "typevalue": 4,
+      "children": [
+        368,
+        369
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27721,10 +29365,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 366,
       "id": 367
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27775,10 +29422,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 367,
       "id": 368
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27813,10 +29463,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 367,
       "id": 369
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27851,10 +29504,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 366,
       "id": 370
     },
     {
+      "typevalue": 4,
+      "children": [
+        372,
+        375
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27881,10 +29540,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 361,
       "id": 371
     },
     {
+      "typevalue": 4,
+      "children": [
+        373,
+        374
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27911,10 +29576,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 371,
       "id": 372
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -27997,10 +29665,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 372,
       "id": 373
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -28075,10 +29746,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 372,
       "id": 374
     },
     {
+      "typevalue": 4,
+      "children": [
+        376,
+        379
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -28105,10 +29782,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 371,
       "id": 375
     },
     {
+      "typevalue": 4,
+      "children": [
+        377,
+        378
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -28135,10 +29818,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 375,
       "id": 376
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -28189,10 +29875,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 376,
       "id": 377
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -28243,10 +29932,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 376,
       "id": 378
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -28297,10 +29989,16 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 375,
       "id": 379
     },
     {
+      "typevalue": 4,
+      "children": [
+        381,
+        382
+      ],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -28335,10 +30033,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": null,
       "id": 380
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -28413,10 +30114,13 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 380,
       "id": 381
     },
     {
+      "typevalue": 4,
+      "children": [],
+      "typename": "basal_dendrite",
       "points": [
         {
           "position": [
@@ -28515,7 +30219,7 @@
           "radius": 0.5
         }
       ],
-      "type": "basal_dendrite",
+      "parent": 380,
       "id": 382
     }
   ]
