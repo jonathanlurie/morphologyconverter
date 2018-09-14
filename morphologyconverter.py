@@ -83,7 +83,7 @@ def save_morph_as_json (input, output) :
                 "parent": section.parent.id if section.parent else None,
                 "children": list(map(lambda x: x.id, section.children)),
                 "typename": section.type._name_,
-                "typevalue": section.type._value_,
+                "typevalue": section.type._value_ - 1, # because enum are 1-indexed
                 "points": points
             }
 
@@ -93,12 +93,35 @@ def save_morph_as_json (input, output) :
         elif section.type == NeuriteType.soma:
             soma["id"] = section.id
             soma["type"] = section.type._name_
-            soma["center"] = [section.points[:,0].mean(), section.points[:,1].mean(), section.points[:,2].mean() ]
-            soma["radius"] = 5
+
+            points = []
+            for point in section.points[1:]:
+                current_point = {
+                    "position": [point[0], point[1], point[2]],
+                }
+                points.append(current_point)
+
+            soma["points"] = points
+            soma["radius"] = section.points[1,3]
 
 
+            #print(np.shape( section.points )[0])
 
-        #pprint(vars(section))
+            #soma["center"] = [section.points[1:,0].mean(), section.points[1:,1].mean(), section.points[1:,2].mean() ]
+            #soma["center"] = [section.points[0,0], section.points[0,1], section.points[0,2] ]
+            #soma["center"] = [section.points[10][0], section.points[10][1], section.points[10][2]]
+            #soma["radius"] = 5
+
+            #soma["radius"] = ((section.points[1:,0].max() - section.points[1:,0].min() ) + (section.points[1:,1].max() - section.points[1:,1].min() ) + (section.points[1:,2].max() - section.points[1:,2].min() )) / 3
+
+
+            # when single point. THE FIRST POINT IS FAKE!!
+            #soma["center"] = [section.points[1,0], section.points[1,1], section.points[1,2] ]
+            #soma["radius"] = section.points[1,3]
+            #print(soma["radius"])
+            #print([section.points[0][0], section.points[0][1], section.points[0][2]])
+
+            #pprint(vars(section))
 
 
 
